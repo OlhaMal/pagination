@@ -7,9 +7,69 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #574f4a;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.image-list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.image {
+  width: 288px;
+  height: 184px;
+  border-radius: 8px 8px 0 0;
+}
+
+.image-wrapper {
+  width: 288px;
+  height: 264px;
+  border-radius: 8px;
+  border: 2px solid #1a1a1a;
+  background: #fff;
+}
+
+.container {
+  max-width: 288px;
+  border: 1px black;
+  margin: 0 auto;
+}
+
+.paginationContainer {
+  display: flex;
+  align-items: center;
+  width: 288px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.paginationItem {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.paginationItem.activePage {
+  background-color: #4caf50;
+  color: white;
+}
+
+.paginationItem:hover:not(.activePage) {
+  background-color: #ddd;
 }
