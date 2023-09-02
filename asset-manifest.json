@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "//olhamal.github.io/pafination/static/css/main.7acaea2f.css",
+    "main.js": "//olhamal.github.io/pafination/static/js/main.07d3183d.js",
+    "index.html": "//olhamal.github.io/pafination/index.html",
+    "main.7acaea2f.css.map": "//olhamal.github.io/pafination/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "//olhamal.github.io/pafination/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
